@@ -6,7 +6,7 @@ export default class Months extends Component {
 		const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 		const data = this.props.data;
 		let amount = [];
-
+// asd
 		data.map( el => {
 			return amount.push(new Date(el.dob).getMonth());
 		});
